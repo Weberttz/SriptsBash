@@ -16,10 +16,10 @@ echo "${meses[@]:9:3}"
 echo "Número total de elementos ${#meses[@]}"
 
 for mes in "${meses[@]}"; do
-if (( maior < ${#mes} )); then
-maior=${#mes}
-maior_comprimento="$mes"
-fi
+    if (( maior < ${#mes} )); then
+        maior=${#mes}
+        maior_comprimento="$mes"
+    fi
 done
 
 echo "Mês com nome de maior comprimento: $maior_comprimento"

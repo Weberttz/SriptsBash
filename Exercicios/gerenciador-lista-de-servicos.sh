@@ -12,8 +12,8 @@ echo ""
 contador=1
 
 for servico in "${servicos[@]}"; do
-echo "Serviço $contador : $servico"
-(( contador++ ))
+    echo "Serviço $contador : $servico"
+    (( contador++ ))
 done
 
 echo "Quantidade de serviços: ${#servicos[@]}"

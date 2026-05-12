@@ -12,3 +12,4 @@ until [[ $contador -eq 0 ]]; do
 done
 
 spd-say "Concluído"
+
